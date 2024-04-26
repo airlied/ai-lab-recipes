@@ -5,6 +5,7 @@ help:
 	@echo "  - amd"
 	@echo "  - nvidia"
 	@echo "  - intel"
+	@echo "  - oneapi"
 
 .PHONY: amd nvidia intel
 amd:
@@ -13,3 +14,5 @@ nvidia:
 	make -C nvidia/ dtk image
 intel:
 	make -C intel/ image
+oneapi:
+	make -C oneapi/ image

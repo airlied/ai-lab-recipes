@@ -1,0 +1,7 @@
+[oneAPI]
+name=Intel oneAPI
+baseurl=https://yum.repos.intel.com/oneapi
+enabled=1
+priority=50
+gpgcheck=1
+gpgkey=https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB
